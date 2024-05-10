@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Šablony</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .template {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin-bottom: 20px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            overflow: hidden;
+            display: flex;
+        }
+        .template:hover {
+            background-color: #f0f0f0;
+        }
+        .template img {
+            max-width: 100px;
+            height: auto;
+            margin-right: 20px;
+        }
+        .template-content {
+            flex: 1;
+        }
+        footer {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Modrý web</h1>
+    </header>
+    <div class="container">
+        <div class="template" onclick="location.href='sablona1.html';">
+            <img src="https://i.ibb.co/GCrG1Pb/image.png" alt="Šablona 1">
+            <div class="template-content">
+                <h2>Základní šablona</h2>
+                <p>Základní šablona pro SmilosWeb. Barva webu lze změnit.</p>
+            </div>
+        </div>
+        <div class="template" onclick="location.href='sablona2.html';">
+            <img src="https://i.ibb.co/3pqZLv6/image.png" alt="Šablona 2">
+            <div class="template-content">
+                <h2>Modrení 1.0</h2>
+                <p>Moderní šablona. Barva webu lze změnit. </p>
+            </div>
+        </div>
+        <div class="template" onclick="location.href='sablona3.html';">
+            <img src="https://i.ibb.co/bNBvgMW/image.png" alt="Šablona 3">
+            <div class="template-content">
+                <h2>Moderní 2.0</h2>
+                <p>Druhá verze naší moderní šablony.</p>
+
+            </div>
+        </div>
+    </div>
+    <footer>
+        &copy; SmilosWeb
+    </footer>
+</body>
+</html>
