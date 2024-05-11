@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vytvořit web</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+        .question {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .options {
+            display: flex;
+            justify-content: space-around;
+        }
+        .option {
+            padding: 20px 40px;
+            border: 2px solid #333;
+            border-radius: 10px;
+            background-color: #dcdcdc;
+            cursor: pointer;
+            font-size: 18px;
+            transition: background-color 0.3s;
+        }
+        .option:hover {
+            background-color: #ffdada;
+        }
+    </style>
+</head>
+<body>
+    <div class="question">Co chcete udělat?</div>
+    <div class="options">
+        <div class="option" onclick="window.location.href='https://forms.gle/eAiNjaQET4r63StZ8';">Vytvořit web</div>
+        <div class="option" onclick="window.location.href='https://forms.gle/kr5Hbk7R3eLg6bap7';">Upravit web</div>
+    </div>
+</body>
+</html>
