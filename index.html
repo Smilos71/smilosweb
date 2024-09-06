@@ -5,34 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Smilosweb.app</title>
     <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
- <!-- Start of Async Drift Code -->
-<script>
-"use strict";
+    <!-- Start of Async Drift Code -->
+    <script>
+    "use strict";
 
-!function() {
-  var t = window.driftt = window.drift = window.driftt || [];
-  if (!t.init) {
-    if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
-    t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
-    t.factory = function(e) {
-      return function() {
-        var n = Array.prototype.slice.call(arguments);
-        return n.unshift(e), t.push(n), t;
-      };
-    }, t.methods.forEach(function(e) {
-      t[e] = t.factory(e);
-    }), t.load = function(t) {
-      var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
-      o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
-      var i = document.getElementsByTagName("script")[0];
-      i.parentNode.insertBefore(o, i);
-    };
-  }
-}();
-drift.SNIPPET_VERSION = '0.3.1';
-drift.load('63r7upiwf8r3');
-</script>
-<!-- End of Async Drift Code -->
+    !function() {
+      var t = window.driftt = window.drift = window.driftt || [];
+      if (!t.init) {
+        if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+        t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+        t.factory = function(e) {
+          return function() {
+            var n = Array.prototype.slice.call(arguments);
+            return n.unshift(e), t.push(n), t;
+          };
+        }, t.methods.forEach(function(e) {
+          t[e] = t.factory(e);
+        }), t.load = function(t) {
+          var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+          o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+          var i = document.getElementsByTagName("script")[0];
+          i.parentNode.insertBefore(o, i);
+        };
+      }
+    }();
+    drift.SNIPPET_VERSION = '0.3.1';
+    drift.load('63r7upiwf8r3');
+    </script>
+    <!-- End of Async Drift Code -->
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -119,6 +119,22 @@ drift.load('63r7upiwf8r3');
         .service p {
             color: #666;
         }
+        .ads {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 40px;
+        }
+        .ad {
+            width: calc(50% - 10px);
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        .ad iframe {
+            width: 100%;
+            height: 90px;
+            border: 0;
+        }
         .contact {
             text-align: center;
             margin-top: 40px;
@@ -153,14 +169,13 @@ drift.load('63r7upiwf8r3');
     </header>
 
     <nav>
-        <a href="index.html">Domů</a>
-        <a href="kontakt.html">Kontakt</a>
+        <a href='/'>Domů</a>
+        <a href='/kontakt'>Kontakt</a>
         <a href="https://smix.rf.gd">SmiX</a>
-        <a href="https://smilosweb.netlify.app/vytvorit.html">Vytvořit web zdarma </a>
-        <a href="https://smwb.netlify.app/seznamwebu/">Vytvořené weby </a>
-         <a href="https://discord.gg/XGvadnCpb6">Discord </a>
-         <a href="https://smilosweb.netlify.app/sablony">Šablony </a>
-
+        <a href='https://smilosweb.netlify.app/vytvorit'>Vytvořit web zdarma</a>
+        <a href="https://smwb.netlify.app/seznamwebu/">Vytvořené weby</a>
+        <a href="https://discord.gg/XGvadnCpb6">Discord</a>
+        <a href="https://smilosweb.netlify.app/sablony">Šablony</a>
     </nav>
 
     <div class="hero">
@@ -182,7 +197,30 @@ drift.load('63r7upiwf8r3');
             </div>
             <div class="service">
                 <h3>Doména</h3>
-                <p>Základní doména je smwb.netlify.app/vasweb, pokud chcete vlastní doménu/subdoménu, využijte prosím ofiko.eu</p>
+                <p>Základní doména je smwb.netlify.app/vasweb</p>
+            </div>
+        </div>
+      <h2>Reklama pomáhá financovat běh webhostingu:</h2>
+  
+      </h2>
+        <div class="ads">
+            <div class="ad">
+                <iframe data-aa='2350906' src='//acceptable.a-ads.com/2350906' style='border:0px; padding:0; width:100%; height:100%; overflow:hidden; background-color: transparent;'></iframe>
+            </div>
+            <div class="ad">
+                <iframe data-aa='2350906' src='//acceptable.a-ads.com/2350906' style='border:0px; padding:0; width:100%; height:100%; overflow:hidden; background-color: transparent;'></iframe>
+            </div>
+            <div class="ad">
+                <iframe data-aa='2350906' src='//acceptable.a-ads.com/2350906' style='border:0px; padding:0; width:100%; height:100%; overflow:hidden; background-color: transparent;'></iframe>
+            </div>
+            <div class="ad">
+                <iframe data-aa='2350906' src='//acceptable.a-ads.com/2350906' style='border:0px; padding:0; width:100%; height:100%; overflow:hidden; background-color: transparent;'></iframe>
+            </div>
+            <div class="ad">
+                <iframe data-aa='2350906' src='//acceptable.a-ads.com/2350906' style='border:0px; padding:0; width:100%; height:100%; overflow:hidden; background-color: transparent;'></iframe>
+            </div>
+            <div class="ad">
+                <iframe data-aa='2350906' src='//acceptable.a-ads.com/2350906' style='border:0px; padding:0; width:100%; height:100%; overflow:hidden; background-color: transparent;'></iframe>
             </div>
         </div>
 
@@ -190,7 +228,7 @@ drift.load('63r7upiwf8r3');
             <h2>Kontaktujte nás</h2>
             <p>Pro více informací nás kontaktujte na: <a href="mailto:info@smix.rf.gd">info@smix.rf.gd</a></p>
             <br>
-            <br> <h2>Pro vytvoření webu klikněte <a href="https://smilosweb.netlify.app/vytvorit.html">zde</a></h2>.</p>
+            <h2>Pro vytvoření webu klikněte <a href='https://smilosweb.netlify.app/vytvorit'>zde</a></h2>
         </div>
     </div>
 
@@ -200,3 +238,4 @@ drift.load('63r7upiwf8r3');
    <link rel="icon" href="https://smilosweb.netlify.app/icon.ico">
 </body>
 </html>
+
